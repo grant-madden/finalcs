@@ -1,3 +1,9 @@
+/**
+*   @file main.cc
+*   @brief This program counts the characters/lines of a text file (Or Athens/Ohio University if no filename is given)
+*   @author Grant Madden
+*/
+
 #include <string>
 #include <stdlib.h>
 #include <cstdlib>
@@ -8,8 +14,27 @@
 
 using namespace std;
 
+/**
+*   @file main.cc
+*   @fn countChar
+*   @brief This function counts how many characters there are in a string
+*   @param input String to be counted
+**/
 int countChar(string input);
+
+/**
+*   @file main.cc
+*   @fn countLine
+*   @brief This function counts how many lines there are in a string
+*   @param input String to be counted
+**/
 int countLine(string input);
+
+/**
+*   @file main.cc
+*   @fn main
+*   @brief Runs the program, which counts the characters/lines of a text file (Or Athens/Ohio University if no filename is given)
+**/
 
 int main(int argc, char* argv[]){ 
   fstream inStream;
